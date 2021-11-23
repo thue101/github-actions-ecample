@@ -11,7 +11,8 @@ public class GithubCiCdActionsApplication {
 
     @GetMapping("/welcome")
     public String welcome(){
-        return "Welcome To Github Actions Example";
+        return "Welcome To Github Actions Example.../.. This is an updated version";
+
     }
 
     public static void main(String[] args) {
